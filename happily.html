@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happily Natural</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Cormorant Garamond', serif;
+            background: #0b0b0b;
+            color: #f5f5f5;
+            line-height: 1.7;
+        }
+
+        .navigation {
+             padding: 90px 90px 20px;
+             text-align: center;
+        }
+
+        .home-button {
+            color: #f5f5f5;
+            text-decoration: none;
+            border: 1px solid #555;
+            padding: 10px 18px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+
+        .home-button:hover {
+            background: #f5f5f5;
+            color: #0b0b0b;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 0px 30px 80px;
+            text-align: center;
+            font-size: 25px;
+            padding-bottom: 0px;
+        }
+
+         .section-label {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 1000;
+        }
+
+        h1 {
+            font-size: 58px;
+            font-weight: 500;
+            line-height: 1.1;
+            margin: 0 0 25px;
+        }
+
+        .intro {
+            font-size: 23px;
+            color: #c5c5c5;
+            line-height: 1.6;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: 500;
+            margin-top: 65px;
+            margin-bottom: 30px;
+        }
+
+        .people-grid {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 12px;
+        }
+
+        .additional-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 15px;
+        }
+
+        .happily-image {
+            width: 350px;
+            height:auto;
+            object-fit: cover;
+            transition: opacity 0.2s ease;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .happily-image:hover {
+            opacity: 0.7;
+        }
+
+        .bottom-navigation {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 0px;
+            padding-bottom: 90px;
+        }
+
+         hnlink {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 30px 80px;
+            color:#d40c0c
+        }
+
+        @media (max-width: 900px) {
+            .people-grid {
+                grid-template-columns: repeat(5, 1fr);
+            }
+
+            .additional-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 40px;
+            }
+
+            .intro {
+                font-size: 19px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            .people-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .additional-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            main {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navigation">
+        <a class="home-button" href="index.html">← Home</a>
+    </div>
+
+    <main>
+
+        <div class="section-label">Happily Natural</div>
+        <img
+            src="Images/happily1.png"
+            alt="Happily Natural Logo"
+            class="happily-image"
+        >
+
+        <p class="intro">
+            Rooted in Resistance. Growing in Power.
+        </p>
+
+        <p>
+            Founded in 2003 by Duron Chavis at the Black History Museum & Cultural Center of Virginia, Happily Natural Day 
+            began as a grassroots event celebrating natural hair, holistic health, and Black consciousness. 
+            What started in a museum parking lot quickly grew into a major cultural movement.
+        </p>
+
+        <p>
+            The festival fused education and culture — pairing lectures on wellness and liberation with hip hop, spoken word, 
+            and African drum circles. Over the years, it expanded into Black Freedom Weekend, a multi-day celebration drawing 
+            hundreds from across the region.
+        </p>
+
+        <p>
+            appily Natural Day has featured influential voices like Queen Afua, Dr. Llaila Afrika, and dead prez, 
+            and built strong partnerships with organizations like Camp Diva, UNIA-ACL, and VCU’s NAACP. 
+            It also launched initiatives like the Tell the Truth about Jamestown campaign and the Open Your Third Eye Project.
+        </p>
+
+        <p>
+            In May 2020, Happily Natural officially gained nonprofit 501(c)(3) status, solidifying its role as a lasting institution 
+            in Black cultural and land justice organizing.
+        </p>
+
+        <p>
+            Since then, Happily Natural has evolved beyond the festival to become a central hub for Central Virginia’s urban and 
+            community farming movements, supporting initiatives like Sankofa Community Orchard
+             and the Central Virginia Urban Farmer Fellowship.
+        </p>
+
+        <p>
+            Today, Happily Natural Day continues to plant seeds of freedom — cultivating wellness, creativity, and liberation in 
+            Richmond and beyond.
+        </p>
+        </div>
+ <hnlink> 
+        <p>
+            To learn more about Happily Natural and get connected visit 
+             <a href="https://thenaturalfestival.com">thenaturalfestival.com</a>
+        </p>
+    </hnlink>
+        <div class="bottom-navigation">
+            <a class="home-button" href="index.html">← Home</a>
+        </div>
+
+    </main>
+
+</body>
+</html>
+

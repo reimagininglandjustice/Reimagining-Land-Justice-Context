@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Richmond Noir Market</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Cormorant Garamond', serif;
+            background: #0b0b0b;
+            color: #f5f5f5;
+            line-height: 1.7;
+        }
+
+        .navigation {
+            padding: 90px 90px 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+          .home-button {
+            color: #f5f5f5;
+            text-decoration: none;
+            border: 1px solid #555;
+            padding: 10px 18px;
+            border-radius: 3px;
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        .home-button:hover {
+            background: #f5f5f5;
+            color: #0b0b0b;
+        }
+
+ /* Center the entire page vertically */
+        .page-content {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0px 30px 80px;
+            text-align: center;
+            font-size: 25px;
+            line-height: 1.2;
+        }
+
+        .section-label {
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            line-height: .5;
+            font-size: 13px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 58px;
+            font-weight: 500;
+            line-height: 1.1;
+            margin: 0 0 25px;
+        }
+
+        .intro {
+            font-size: 23px;
+            color: #c5c5c5;
+            line-height: 1.6;
+            margin-bottom: 60px;
+            max-width: 900px;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: 500;
+            margin-top: 65px;
+            margin-bottom: 30px;
+        }
+
+        .people-grid {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 12px;
+        }
+
+        .additional-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 15px;
+        }
+
+        .happily-image {
+            width: 250px;
+            height:auto;
+            object-fit: cover;
+            display: block;
+            transition: opacity 0.2s ease;
+        }
+
+        .happily-image:hover {
+            opacity: 0.7;
+        }
+
+        .bottom-navigation {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 30px;
+        }
+
+         hnlink {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 30px 80px;
+            color:#d40c0c
+        }
+
+        @media (max-width: 900px) {
+            .people-grid {
+                grid-template-columns: repeat(5, 1fr);
+            }
+
+            .additional-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 40px;
+            }
+
+            .intro {
+                font-size: 19px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            .people-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .additional-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            main {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+ <div class="page-content">
+
+    <div class="navigation">
+        <a class="home-button" href="index.html">← Home</a>
+    </div>
+
+    <main>
+
+        <p>
+            Richmond Noir Market
+        </p>
+        <p>
+            Launched in 2009 by Duron Chavis, Richmond Noir Market was a Saturday pop up farmers market created to 
+            increase access to fresh, affordable produce in Richmond neighborhoods experiencing food insecurity. 
+            Partnering with Black and elder growers, the market brought local harvests directly to communities 
+            historically marginalized from traditional food systems; transforming underutilized spaces.
+        </p>
+       
+    </hnlink>
+        <div class="bottom-navigation">
+            <a class="home-button" href="index.html">← Home</a>
+        </div>
+
+    </main>
+
+</body>
+</html>
+

@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richmond Grows Gardens</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Cormorant Garamond', serif;
+            background: #0b0b0b;
+            color: #f5f5f5;
+            line-height: 1.7;
+        }
+
+        .navigation {
+            padding: 90px 90px 20px;
+            text-align: center;
+        }
+
+        .home-button {
+            color: #f5f5f5;
+            text-decoration: none;
+            border: 1px solid #555;
+            padding: 10px 18px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+
+        .home-button:hover {
+            background: #f5f5f5;
+            color: #0b0b0b;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 25px;
+            padding: 0px 30px 80px;
+        }
+
+        .section-label {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 1000;
+        }
+
+        h1 {
+            font-size: 58px;
+            font-weight: 500;
+            line-height: 1.1;
+            margin: 0 0 25px;
+        }
+
+        .intro {
+            font-size: 23px;
+            color: #c5c5c5;
+            line-height: 1.6;
+            margin-bottom: 60px;
+            max-width: 900px;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: 500;
+            margin-top: 65px;
+            margin-bottom: 30px;
+        }
+
+        .people-grid {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 12px;
+        }
+
+        .additional-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 15px;
+        }
+
+        .grows-image {
+            width: 600px;
+            height:auto;
+            object-fit: cover;
+            display: block;
+            transition: opacity 0.2s ease;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .grows-image:hover {
+            opacity: 0.7;
+        }
+
+        .bottom-navigation {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 30px;
+        }
+
+         hnlink {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 30px 80px;
+            color:#d40c0c
+        }
+
+        @media (max-width: 900px) {
+            .people-grid {
+                grid-template-columns: repeat(5, 1fr);
+            }
+
+            .additional-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 40px;
+            }
+
+            .intro {
+                font-size: 19px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            .people-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .additional-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            main {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navigation">
+        <a class="home-button" href="index.html">← Home</a>
+    </div>
+
+    <main>
+
+        <p class="section-label">
+            Richmond Grows Gardens
+        </p>
+        <p>
+            Richmond City's Community Garden Program
+        </p>
+        
+        <p>
+         <img
+            src="Images/grows1.png"
+            alt="Richmond Grows Gardens Logo"
+            class="grows-image"
+        >
+        </p>
+       
+        <p>
+            Richmond Grows Gardens is a city-supported initiative that transforms vacant, city-owned land into vibrant community gardens. The program supports neighborhood-based agriculture to improve quality of life, promote environmental resilience, and expand access to fresh, healthy food, especially in under-resourced areas.
+        </p>
+        <p>
+            Through an open application process, the program leases land to community groups and organizations to cultivate fruits, vegetables, herbs, and flowers. These gardens not only feed neighborhoods but also foster community connection and educational opportunities around food and sustainability.
+        </p>
+            Happily Natural manages three active gardens through Richmond Grows Gardens, helping to cultivate green spaces that grow both food and community across the city.
+        </p>
+  
+         <p>
+           <a class="home-button" href="https://www.richmondgrowsgardens.org/">Richmond Grows Gardens</a>
+        </p>
+        
+        <div class="bottom-navigation">
+            <a class="home-button" href="index.html">← Home</a>
+        </div>
+
+    </main>
+
+</body>
+</html>
+
